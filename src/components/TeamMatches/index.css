@@ -1,0 +1,45 @@
+.rcb {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+.sh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+.kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.class-name {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.team-match-con {
+  display: flex;
+  flex-direction: column;
+}
+.image-banner {
+  width: 100%;
+}
+.unordered-match-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}

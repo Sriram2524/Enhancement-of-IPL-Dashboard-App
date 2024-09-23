@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  height: 85%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff33;
+  border: 2px solid #475569;
+}
+.team-img {
+  width: 140px;
+}
+.team-name {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+  text-align: center;
+}
+.link-item {
+  text-decoration: none;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .team-img {
+    width: 70px;
+  }
+  .team-name {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff33;
+    border: 2px solid #475569;
+  }
+}
